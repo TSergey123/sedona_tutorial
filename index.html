@@ -7,28 +7,36 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="">Главная</a>
-      <a href="">Фото и Видео</a>
-      <img src="/images/logotype-desktop.svg" alt="логотип города Седона" />
-      <a href="">Форма отзыва</a>
-      <a href="">Html Academy</a>
+    <header class="header">
+      <div class="header-nav">
+      <a classs="header-nav__link" href="">Главная</a>
+      <a class="header-nav__link" href="">Фото и Видео</a>
+      <img class="header-nav__logo" src="/images/logotype-desktop.svg" alt="логотип города Седона" />
+      <a class="header-nav__link" href="">Форма отзыва</a>
+      <a class="header-nav__link" href="">Html Academy</a>
+    </div>
     </header>
-    <div>
-      <img src="images/intro.png" alt="main picture" />
-      <h1>Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
-      <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
-      <div>
-        <h2>Настояший городок</h2>
-        <p>- №1 -</p>
-        <p>Седона не аттракцион для туристов, там течёт своя жизнь</p>
+    <main class="main">
+    <div class="container">
+     <div class="intro">
+      <img class="intro__image" src="images/intro.png" alt="main picture" />
+      <h1 class="intro__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
+      <p class="intro__text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+    </div>
+    <div class="about">
+    <div class="about-info">
+        <h2 class="about-info__title">Настояший городок</h2>
+        <p class="about-info__text">- №1 -</p>
+        <p class="about-info__text">Седона не аттракцион для туристов, там течёт своя жизнь</p>
       </div>
-      <img src="images/photo-city.png" alt="Фото города Седона" />
-      <ul>
-        <li>
-          <img src="images/icon-house.svg" alt="house" />
-          <h2>Жильё</h2>
-          <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+      <img class="about__image" src="images/photo-city.png" alt="Фото города Седона" />
+    </div>
+      <div class="features">
+    <ul class="features__list">
+        <li class="features__item">
+          <img class="features__image" src="images/icon-house.svg" alt="house" />
+          <h2 class="features__text">Жильё</h2>
+          <p class="features__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
         <li>
           <img src="images/icon-burger.svg" alt="burger" />
@@ -41,6 +49,7 @@
           <p>Не только китайского, но и местного производства!</p>
         </li>
       </ul>
+    </div>
       <div>
         <h2>Там есть мост дьявола</h2>
         <p>- №2 -</p>
@@ -68,8 +77,9 @@
         гостиниц в седоне
       </p>
     </div>
-      <button><a href="">Найти гостиницу</a></button>
+      <a href="">Найти гостиницу</a>
       <img src="images/map-desktop.png" alt="map" />
+    </main>
       <footer>
         <h1>#Visitsedona</h1>
         <ul>

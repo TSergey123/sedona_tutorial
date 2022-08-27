@@ -1,0 +1,26 @@
+.header-nav__logo {
+  border: 100px solid violet;
+  left: 42.73%;
+  right: 42.69%;
+  top: 0%;
+  bottom: 96.4%;
+  background: #81b3d3;
+}
+
+.intro__title {
+  width: 483px;
+  height: 110px;
+  left: 398px;
+  top: 629px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+}
